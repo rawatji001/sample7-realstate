@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope";
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f6f8fa;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  font-size: 1.8rem;
+  font-weight: 800;
+  padding: 1rem 3rem;
+  color: white;
+  background-color: #6663e9;
+  border: none;
+  border-radius: 2.5rem;
+  cursor: pointer;
+}
+
+.header {
+  height: 125vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./Photos/mainBackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Navbar------------------------ */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2.5rem 0;
+}
+.navbar img {
+  width: 12rem;
+  height: 4.5rem;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+.navbar li a {
+  font-size: 1.8rem;
+  color: white;
+  margin-right: 5rem;
+}
+hr {
+  margin: 0 10rem;
+}
+
+/* Hero Section-------------------------- */
+.hero {
+  margin-top: 8.5rem;
+  margin-left: 15rem;
+  color: white;
+}
+.hero h1 {
+  font-size: 7.2rem;
+  margin-bottom: 3rem;
+}
+.hero p {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+  font-weight: 500;
+  width: 41rem;
+}
+
+/* Logos----------------------- */
+.logos {
+  background-color: #fff;
+  margin: 0 3.5rem;
+  height: 19rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 3rem;
+  position: relative;
+  bottom: 10rem;
+}
+.logos img {
+  width: 15.6rem;
+  height: 3.8rem;
+}
+
+/* Cards Information------------------ */
+.houseInfo h1 {
+  font-weight: 800;
+  font-size: 6rem;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+.allCards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 5rem;
+  position: relative;
+}
+.card {
+  flex-basis: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+}
+
+.allCards div:nth-child(2) {
+  margin-top: 5rem;
+}
+.allCards div:nth-child(3) {
+  margin-top: 10rem;
+}
+.allCards div:nth-child(4) {
+  margin-top: 16rem;
+}
+.allCards div:nth-child(5) {
+  margin-top: 10rem;
+}
+.allCards div:nth-child(6) {
+  margin-top: 4rem;
+}
+.allCards div:nth-child(7) {
+  margin-top: 4rem;
+}
+.allCards div:nth-child(8) {
+  margin-top: 10rem;
+}
+.allCards div:nth-child(9) {
+  margin-top: 16rem;
+}
+
+.card img {
+  width: 366px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.cardDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 32.6rem;
+  height: 12.1rem;
+  background: #ffffff;
+  box-shadow: 0rem 0.4rem 12rem rgba(58, 86, 78, 0.2);
+  position: absolute;
+  bottom: -6rem;
+  border-radius: 2rem;
+  padding: 1.5rem 2rem;
+}
+
+.cardDetails h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.cardDetails p {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #6663e9;
+  text-shadow: 0rem 0.4rem 6rem rgba(0, 0, 0, 0.05);
+}
+.cardDetails button {
+  width: 11.4rem;
+  height: 5.2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+
+/* Feature section----------------- */
+
+
+.featured h1 {
+    font-size: 6rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    letter-spacing: 0.01em;
+  }
+  
+  .featured p {
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+    color: #585c65;
+    font-weight: 500;
+    max-width: 80%;
+  }
+  
+  .featured button {
+    font-weight: 700;
+  }
+
+
+/* First Featured-------------------- */
+.featured {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25rem;
+}
+.featured div {
+  width: 50%;
+}
+
+.feature1 div:first-child img:first-child {
+  position: absolute;
+  left: -8rem;
+  z-index: -1;
+  width: 72.6rem;
+  height: 45.6rem;
+}
+
+.feature1 div:first-child img:last-child {
+  position: relative;
+  left: 11rem;
+  bottom: 5.5rem;
+  height: 40.5rem;
+  width: 40.5rem;
+  border-radius: 5.2rem;
+}
+
+
+/* Second Feature------------------------ */
+.feature2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feature2 div {
+  width: 50%;
+}
+.feature2 div:last-child{
+    position: relative;
+}
+
+.feature2 div:last-child img:first-child{
+    position: absolute;
+    right: 0;
+    bottom: -22rem;
+    width: 72.6rem;
+    height: 45.6rem;
+}
+
+.feature2 div:last-child img:last-child{
+    position: absolute;
+    bottom: -11rem;
+    right: 13.5rem;
+    height: 40.6rem;
+    width: 40.6rem;
+    border-radius: 5.1rem;
+}
+
+.feature2 div:first-child{
+   padding: 0 5rem;
+}
+
+.feature2 div:first-child h1{
+    width: 90%;
+ }
+
+ /* NewsLetter Section---------------- */
+ .newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #6663e9;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+    margin: 10rem 7rem;
+    border-radius: 7rem;
+    padding: 7rem 0;
+    gap: 3rem;
+    color: #ffffff;
+    text-align: center;
+ }
+
+ .newsletter h1{
+    font-size: 6rem;
+    font-weight: 800;
+ }
+
+ .newsletter p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    width: 58%;
+ }
+
+ .newsletter form{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+ }
+
+ .newsletter form div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background: #5654d1;
+    width: 46.8rem;
+    height: 6.1rem;
+    padding: 0 2rem;
+    border-radius: 4rem;
+ }
+
+ .newsletter form input{
+    background-color: transparent;
+    border: none;
+    width: 45rem;
+    height: 3rem;
+    border-radius: 4rem;
+    padding: 1rem;
+ }
+
+ .newsletter button{
+    background: white;
+    color: #6663e9;
+    padding: 1.8rem 4.2rem;
+    border-radius: 4rem ;
+    
+ }
+
+
+ /* Footer------------------- */
+ footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5rem 10rem;
+ }
+
+ footer div:first-child{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+ }
+
+ footer div:first-child img{
+  width: 15rem;
+ }
+
+ footer div:first-child div img{
+  width: 4.5rem;
+  margin-right: 2rem;
+ }
+
+ footer div:first-child h4{
+  font-size: 2rem;
+  font-weight: 400;
+  width: 30rem;
+ }
+
+ .footer-link{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12rem;
+ }
+
+ /* .links{
+  display: flex;
+  flex-direction: column;
+ } */
+.links ul li{
+  margin-bottom: 2.5rem;
+}
+ .links ul li a{
+  color: black;
+  font-size: 1.6rem;
+ }
+
+ .links ul li:first-child a{
+  font-size: 2rem;
+  font-weight: 700;
+ }
